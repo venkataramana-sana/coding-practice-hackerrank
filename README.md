@@ -40,3 +40,14 @@ ANSWER:
         print("Weird")
     elif n%2 ==0 and n>20:
         print("Not Weird")
+
+ CODE-5:
+ TASK:
+ There is a problem worthX points. Chef finds out that the problem has exactly 10 test cases. It is known that each test case is worth the same number of points.Chef passes N test cases among them. Determine the score Chef will get
+
+ ANSWER:
+
+ t=int(input())
+for _ in range(t):
+    n,a= map(int,input().split())
+    print((n//10)*a)   #(// IS USED TO ROUND OF THE FLOAT VALUE TO INTEGER VALUE)
