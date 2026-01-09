@@ -51,3 +51,25 @@ ANSWER:
 for _ in range(t):
     n,a= map(int,input().split())
     print((n//10)*a)   #(// IS USED TO ROUND OF THE FLOAT VALUE TO INTEGER VALUE)
+
+CODE-6:
+TASK:
+Chef's website has a specific response mechanism based on the HTTP status code received:
+If the response code is404, the website will return NOT FOUND.For any other response code different from 404 the website will return FOUND.
+
+ANSWER:
+n=int(input())
+if n==404 :
+    print("NOT FOUND")
+else:
+    print("FOUND")
+
+CODE-7:
+TASK:
+You just bought a new calculator, but it seems to have a small problem: all its results have an extra 1 appended to the end.
+For example, if you ask it for 3 + 5, it'll print 81, and 4 + 12 will result in 161.
+Given A and B, can you predict what the calculator will print when you ask it for A+B?
+
+ANSWER:
+n,a=map(int,input().split())
+print(n+a,end="1")
