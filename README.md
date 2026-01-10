@@ -114,3 +114,52 @@ for _ in range(a):
         print("YES")
     else:
         print("NO")
+
+    CODE-12:
+    TASK:
+    Chef has recently moved into an apartment. It takes 30 minutes for Chef to reach office from the apartment.Chef left for the office X minutes before Chef was supposed to reach. Determine whether or not Chef will be able to reach on time.
+
+    ANSWER:
+    a=int(input())
+for _ in range(a):
+    t = int(input())
+    if t>=30 :
+        print("YES")
+    else:
+        print("NO")
+
+   CODE-13:
+   TASK:
+   The rules of the puzzle hunt state:
+"This hunt is intended for teams of 6 to 8 people."Chef's team has N people in total. Are they eligible to participate?
+
+ANSWER:
+a = int(input())
+if a>=6 and a<=8 :
+    print("YES")
+else:
+    print("NO")
+
+ CODE-14:
+ TASK:
+ It's Halloween and Suri Bhai is out to get his treats.There are two sectors in his neighborhood, "Bones" and "Blood". They have N and M people, respectively.Each person in "Bones" will hand out X treats, and each person in "Blood" will hand out Y treats.How many treats does Suri Bhai get from visiting everyone in his neighborhood in total?
+
+ ANSWER:
+ t,a=map(int,input().split())
+q,r =map(int,input().split())
+print((t*q)+(a*r))
+
+CODE-15 :
+TASK :
+Alice and Bob were having an argument about which of them is taller than the other. Charlie got irritated by the argument, and decided to settle the matter once and for all.
+Charlie measured the heights of Alice and Bob, and got to know that Alice's height is Xcentimeters and Bob's height isY centimeters. Help Charlie decide who is taller.
+
+ANSWER:
+k = int(input())
+for _ in range (k):
+    t,r = map (int,input().split())
+    if t>r:
+        print("A")
+    else :
+        print("B")
+   
