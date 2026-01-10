@@ -73,3 +73,44 @@ Given A and B, can you predict what the calculator will print when you ask it fo
 ANSWER:
 n,a=map(int,input().split())
 print(n+a,end="1")
+
+CODE-8:
+TASK:
+A blood drive aims to collect N number of blood donations.The drive has collected X donations so far. Find the remaining number of donations needed to reach the target.
+
+ANSWER:a= int(input())
+for _ in range(a):
+    t,n = map(int,input().split())
+    print(t-n)
+
+ CODE-9:
+ TASK:
+ The working hours of Chef’s kitchen are from X pm to Y(1≤X<Y≤12).Find the number of hours Chef works.
+ ANSWER:
+ a= int(input())
+for _ in range(a):
+    t,n = map(int,input().split())
+    print(n-t)
+
+  CODE-10:
+  TASK:
+  The first line of input will contain a single integer T, denoting the number of test cases.Each test case consists of two space-separated integers N and M — the number of students wants to go and the total number of tickets available, respectively.
+
+  ANSWER:
+  a= int(input())
+for _ in range(a):
+    t,n = map(int,input().split())
+    print(max(0,t-n))  # max is used ouput is always postive only otherwise "0".
+
+  CODE-11:
+  TASK:
+  Chef's dog binary hears frequencies starting from 67 Hertz to 45000 Hertz (both inclusive).If Chef's commands have a frequency of X Hertz, find whether binary can hear them or not
+
+  ANSWER:
+  a =int(input())
+for _ in range(a):
+    t=int(input())
+    if t>=67 and t<=45000 :
+        print("YES")
+    else:
+        print("NO")
